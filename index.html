@@ -5,9 +5,9 @@
 ﻿  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ﻿  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 ﻿  <title>WEBプログラマの登竜門</title>
-  <!-- <script src="https://unpkg.com/vue@next"></script> -->
+  <script src="https://unpkg.com/vue@next"></script>
   <!-- 安定版 -->
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script> -->
 ﻿</head>
 ﻿<body>
 ﻿  <header>
@@ -28,8 +28,8 @@
     </section>
   </main>
   <aside>
-    <div id="counter">
-      Counter: {{ counter }}
+    <div id="hello-vue" class="demo">
+      {{ message }}
     </div>
     <ul>
       <li><a href="">HTML</a></li>
@@ -37,6 +37,7 @@
       <li><a href="">JavaScript</a></li>
     </ul>
   </aside>
+  <script src="js/common.js"></script>
   <footer>
     <small>©2021 code9a by amiya-se</small>
   </footer>
